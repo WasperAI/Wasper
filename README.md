@@ -15,10 +15,6 @@
 </p>
 
 <br/>
-
-<br/>
-
-<br/>
 <br/>
 
 <div align="center">
@@ -42,15 +38,13 @@
 </div>
 <br />
 
-<div align="center">
-<img src="https://github.com/toeverything/AFFiNE/assets/79301703/49a426bb-8d2b-4216-891a-fa5993642253" style="width: 100%"/>
-</div>
+
 
 ## Getting started & staying tuned with us.
 
 Star us, and you will receive all release notifications from GitHub without any delay!
 
-<img src="https://user-images.githubusercontent.com/79301703/230891830-0110681e-8c7e-483b-b6d9-9e42b291b9ef.gif" style="width: 100%"/>
+<img src="https://i.ibb.co/Pj3Vp9j/1222222.gif" style="width: 100%"/>
 
 ## What is Wasper
 
