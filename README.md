@@ -1,12 +1,12 @@
 <div align="center">
 
 <h1 style="border-bottom: none">
-    <b><a href="https://wasper.app">Wasper</a></b><br />
+    <b><a href="https://affine.pro">AFFiNE.PRO</a></b><br />
     Write, Draw and Plan All at Once
     <br>
 </h1>
-<a href="https://wasper.app/download">
-    <img alt="affine logo" src="https://i.imgur.com/CuD4iV8.png" style="width: 100%">
+<a href="https://affine.pro/download">
+    <img alt="affine logo" src="https://cdn.affine.pro/Github_hero_image1.png" style="width: 100%">
 </a>
 <br/>
 <p align="center">
@@ -15,13 +15,18 @@
 </p>
 
 <br/>
+
+<br/>
+<a href="https://www.producthunt.com/posts/affine-3?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-affine&#0045;3" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=440671&theme=light" alt="AFFiNE - One&#0032;app&#0032;for&#0032;all&#0032;&#0045;&#0032;Where&#0032;Notion&#0032;meets&#0032;Miro | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+<br/>
 <br/>
 
 <div align="center">
-    <a href="https://wasper.app">Home Page</a> |
-    <a href="https://medium.com/@WasperAI">Medium</a> |
-    <a href="https://twitter.com/wasperAI">Twitter</a> |
-    <a href="https://wasper.app/blog">Blog</a> |
+    <a href="https://affine.pro">Home Page</a> |
+    <a href="https://discord.com/invite/yz6tGVsf5p">Discord</a> |
+    <a href="https://app.affine.pro">Live Demo</a> |
+    <a href="https://affine.pro/blog/">Blog</a> |
+    <a href="https://docs.affine.pro/docs/">Documentation</a>
 </div>
 <br/>
 
@@ -34,21 +39,23 @@
 
 <br />
 <div align="center">
-<em>Docs, canvas and tables are hyper-merged with Wasper.</em>
+<em>Docs, canvas and tables are hyper-merged with AFFiNE - just like the word affine (əˈfʌɪn | a-fine).</em>
 </div>
 <br />
 
-
+<div align="center">
+<img src="https://github.com/toeverything/AFFiNE/assets/79301703/49a426bb-8d2b-4216-891a-fa5993642253" style="width: 100%"/>
+</div>
 
 ## Getting started & staying tuned with us.
 
 Star us, and you will receive all release notifications from GitHub without any delay!
 
-<img src="https://i.ibb.co/Pj3Vp9j/1222222.gif" style="width: 100%"/>
+<img src="https://user-images.githubusercontent.com/79301703/230891830-0110681e-8c7e-483b-b6d9-9e42b291b9ef.gif" style="width: 100%"/>
 
-## What is Wasper
+## What is AFFiNE
 
-Wasper is an open-source, all-in-one workspace and an operating system for all the building blocks that assemble your knowledge base and much more -- wiki, knowledge management, presentation and digital assets. It's a better alternative to Notion and Miro.
+AFFiNE is an open-source, all-in-one workspace and an operating system for all the building blocks that assemble your knowledge base and much more -- wiki, knowledge management, presentation and digital assets. It's a better alternative to Notion and Miro.
 
 ## Features
 
@@ -64,9 +71,9 @@ Wasper is an open-source, all-in-one workspace and an operating system for all t
 
 - We love the idea of local-first that you always own your data on your disk, in spite of the cloud. Furthermore, AFFiNE supports real-time sync and collaborations on web and cross-platform clients.
 
-**Self-host & Shape your own Wasper**
+**Self-host & Shape your own AFFiNE**
 
-- You have the freedom to manage, self-host, fork and build your own Wasper. Plugin community and third-party blocks are coming soon.
+- You have the freedom to manage, self-host, fork and build your own AFFiNE. Plugin community and third-party blocks are coming soon. More tractions on [Blocksuite](https://blocksuite.io). Check there to learn how to [self-host AFFiNE](https://docs.affine.pro/docs/self-host-affine).
 
 ## Acknowledgement
 
@@ -80,11 +87,11 @@ Wasper is an open-source, all-in-one workspace and an operating system for all t
 
 There is a large overlap of their atomic “building blocks” between these apps. They are not open source, nor do they have a plugin system like Vscode for contributors to customize. We want to have something that contains all the features we love and also goes one step even further.
 
-Thanks for checking us out, we appreciate your interest and sincerely hope that Wasper resonates with you! 🎵 Checking https://wasper.app/ for more details ions.
+Thanks for checking us out, we appreciate your interest and sincerely hope that AFFiNE resonates with you! 🎵 Checking https://affine.pro/ for more details ions.
 
 ## Contributing
 
-| Bug Reports                                                                                                                                         | Feature Requests                                                                                                                                               | Questions/Discussions                                                         | Wasper Community                                          |
+| Bug Reports                                                                                                                                         | Feature Requests                                                                                                                                               | Questions/Discussions                                                         | AFFiNE Community                                          |
 | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------- |
 | [Create a bug report](https://github.com/toeverything/AFFiNE/issues/new?assignees=&labels=bug%2Cproduct-review&template=BUG-REPORT.yml&title=TITLE) | [Submit a feature request](https://github.com/toeverything/AFFiNE/issues/new?assignees=&labels=feat%2Cproduct-review&template=FEATURE-REQUEST.yml&title=TITLE) | [Check GitHub Discussion](https://github.com/toeverything/AFFiNE/discussions) | [Vist the AFFiNE Community](https://community.affine.pro) |
 | Something isn't working as expected                                                                                                                 | An idea for a new feature, or improvements                                                                                                                     | Discuss and ask questions                                                     | A place to ask, learn and engage with others              |
