@@ -1,1 +1,1 @@
-# Please visit https://docs.affine.pro/docs/contributing
+# Please visit https://wasper.app/blog/
