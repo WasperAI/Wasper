@@ -1,8 +1,8 @@
 {
-  "name": "@affine/monorepo",
+  "name": "wasper",
   "version": "0.14.0",
   "private": true,
-  "author": "toeverything",
+  "author": "wasperai",
   "license": "MIT",
   "workspaces": [
     ".",
@@ -11,18 +11,18 @@
     "docs/reference",
     "tools/@types/*",
     "tests/*",
-    "tests/affine-legacy/*"
+    "tests/wasperai/*"
   ],
   "engines": {
     "node": "<21.0.0"
   },
   "scripts": {
-    "dev": "yarn workspace @affine/cli dev",
-    "dev:electron": "yarn workspace @affine/electron dev",
-    "build": "yarn nx build @affine/web",
-    "build:electron": "yarn nx build @affine/electron",
-    "build:server-native": "yarn nx run-many -t build -p @affine/server-native",
-    "start:web-static": "yarn workspace @affine/web static-server",
+    "dev": "yarn workspace @wasperai/cli dev",
+    "dev:electron": "yarn workspace @wasperai/electron dev",
+    "build": "yarn nx build @wasperai/web",
+    "build:electron": "yarn nx build @wasperai/electron",
+    "build:server-native": "yarn nx run-many -t build -p @wasperai/server-native",
+    "start:web-static": "yarn workspace @wasperai/web static-server",
     "serve:test-static": "yarn exec serve tests/fixtures --cors -p 8081",
     "lint:eslint": "cross-env NODE_OPTIONS=\"--max-old-space-size=8192\" eslint . --ext .js,mjs,.ts,.tsx --cache",
     "lint:eslint:fix": "yarn lint:eslint --fix",
@@ -52,8 +52,8 @@
     ]
   },
   "devDependencies": {
-    "@affine-test/kit": "workspace:*",
-    "@affine/cli": "workspace:*",
+    "@wasperai-test/kit": "workspace:*",
+    "@wasperai/cli": "workspace:*",
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
     "@faker-js/faker": "^8.4.1",
@@ -64,7 +64,7 @@
     "@taplo/cli": "^0.7.0",
     "@testing-library/react": "^15.0.0",
     "@toeverything/infra": "workspace:*",
-    "@types/affine__env": "workspace:*",
+    "@types/wasperai__env": "workspace:*",
     "@types/eslint": "^8.56.7",
     "@types/node": "^20.12.7",
     "@typescript-eslint/eslint-plugin": "^7.6.0",
