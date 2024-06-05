@@ -38,6 +38,6 @@ update_app_version_in_helm_charts() {
 
 new_version=$1
 
-update_app_version_in_helm_charts ".github/helm/affine/Chart.yaml" "$new_version"
-update_app_version_in_helm_charts ".github/helm/affine/charts/graphql/Chart.yaml" "$new_version"
-update_app_version_in_helm_charts ".github/helm/affine/charts/sync/Chart.yaml" "$new_version"
+update_app_version_in_helm_charts ".github/helm/Wasper/Chart.yaml" "$new_version"
+update_app_version_in_helm_charts ".github/helm/Wasper/charts/graphql/Chart.yaml" "$new_version"
+update_app_version_in_helm_charts ".github/helm/Wasper/charts/sync/Chart.yaml" "$new_version"
