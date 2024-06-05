@@ -1,5 +1,5 @@
 {
-  "name": "@affine/server-native",
+  "name": "@wasper/server-native",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "root": "packages/backend/native",
