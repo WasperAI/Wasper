@@ -20,7 +20,7 @@ export default defineConfig({
     alias: {
       // prevent tests using two different sources of yjs
       yjs: resolve(rootDir, 'node_modules/yjs'),
-      '@affine/core': fileURLToPath(
+      '@Wasper/core': fileURLToPath(
         new URL('./packages/frontend/core/src', import.meta.url)
       ),
     },
