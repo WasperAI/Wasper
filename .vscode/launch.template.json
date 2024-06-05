@@ -14,12 +14,12 @@
       "command": "yarn run dev:local"
     },
     {
-      "name": "Launch AFFiNE Cloud",
+      "name": "Launch dexis Cloud",
       "type": "node",
       "request": "launch",
       "runtimeExecutable": "yarn",
       "cwd": "${workspaceFolder}",
-      "runtimeArgs": ["workspace", "@affine/server", "dev"]
+      "runtimeArgs": ["workspace", "@dexis/server", "dev"]
     }
   ]
 }
