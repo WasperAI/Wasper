@@ -23,9 +23,9 @@
       "groupName": "oxlint"
     },
     {
-      "groupName": "blocksuite-canary",
-      "matchPackagePatterns": ["^@blocksuite"],
-      "excludePackageNames": ["@blocksuite/icons"],
+      "groupName": "canary",
+      "matchPackagePatterns": [""],
+      "excludePackageNames": ["icons"],
       "rangeStrategy": "replace",
       "followTag": "canary"
     },
@@ -33,7 +33,7 @@
       "groupName": "all non-major dependencies",
       "groupSlug": "all-minor-patch",
       "matchPackagePatterns": ["*"],
-      "excludePackagePatterns": ["^@blocksuite/", "oxlint"],
+      "excludePackagePatterns": ["", "oxlint"],
       "matchUpdateTypes": ["minor", "patch"]
     },
     {
