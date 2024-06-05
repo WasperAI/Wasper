@@ -27,7 +27,7 @@
 </div>
 <br/>
 
-[![Releases](https://img.shields.io/github/downloads/toeverything/Wasper/total)](https://github.com/toeverything/Wasper/releases/latest)
+[![Releases](https://img.shields.io/github/downloads/toeverything/AFFiNE/total)](https://github.com/toeverything/AFFiNE/releases/latest)
 [![All Contributors][all-contributors-badge]](#contributors)
 [![TypeScript-version-icon]](https://www.typescriptlang.org/)
 [![Rust-version-icon]](https://www.rust-lang.org/)
