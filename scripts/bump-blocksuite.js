@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-import('@affine/bump-blocksuite');
+import('@wasper/bump');
