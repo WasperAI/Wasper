@@ -1,5 +1,5 @@
 import { getRuntimeConfig } from '@affine/cli/src/webpack/runtime-config';
-import { setupGlobal } from '@affine/env/global';
+import { setupGlobal } from '@wasper/env/global';
 
 globalThis.runtimeConfig = getRuntimeConfig({
   distribution: 'browser',
