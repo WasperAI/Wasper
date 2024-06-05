@@ -28,6 +28,6 @@ declare type DeepPartial<T> =
           }
         : T;
 
-declare type AFFiNEModule =
+declare type WasperModule =
   | import('@nestjs/common').Type
   | import('@nestjs/common').DynamicModule;
