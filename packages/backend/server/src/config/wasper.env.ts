@@ -1,9 +1,9 @@
 // Convenient way to map environment variables to config values.
-AFFiNE.ENV_MAP = {
-  AFFINE_SERVER_PORT: ['port', 'int'],
-  AFFINE_SERVER_HOST: 'host',
-  AFFINE_SERVER_SUB_PATH: 'path',
-  AFFINE_SERVER_HTTPS: ['https', 'boolean'],
+WASPER.ENV_MAP = {
+  WASPER_SERVER_PORT: ['port', 'int'],
+  WASPER_SERVER_HOST: 'host',
+  WASPER_SERVER_SUB_PATH: 'path',
+  WASPER_SERVER_HTTPS: ['https', 'boolean'],
   DATABASE_URL: 'db.url',
   ENABLE_CAPTCHA: ['auth.captcha.enable', 'boolean'],
   CAPTCHA_TURNSTILE_SECRET: ['auth.captcha.turnstile.secret', 'string'],
