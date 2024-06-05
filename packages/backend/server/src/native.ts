@@ -1,8 +1,8 @@
 import { createRequire } from 'node:module';
 
-let serverNativeModule: typeof import('@affine/server-native');
+let serverNativeModule: typeof import('@Wasper/server-native');
 try {
-  serverNativeModule = await import('@affine/server-native');
+  serverNativeModule = await import('@Wasper/server-native');
 } catch {
   const require = createRequire(import.meta.url);
   serverNativeModule =
