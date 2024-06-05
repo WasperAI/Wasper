@@ -20,7 +20,7 @@ export async function createApp() {
     cors: true,
     rawBody: true,
     bodyParser: true,
-    logger: AFFiNE.affine.stable ? ['log'] : ['verbose'],
+    logger: Wasper.Wasper.stable ? ['log'] : ['verbose'],
   });
 
   app.use(serverTimingAndCache);
@@ -38,7 +38,7 @@ export async function createApp() {
   app.useGlobalFilters(new GlobalExceptionFilter(app.getHttpAdapter()));
   app.use(cookieParser());
 
-  if (AFFiNE.flavor.sync) {
+  if (Wasper.flavor.sync) {
     const SocketIoAdapter = app.get<Type<SocketIoAdapter>>(
       SocketIoAdapterImpl,
       {
@@ -50,10 +50,10 @@ export async function createApp() {
     app.useWebSocketAdapter(adapter);
   }
 
-  if (AFFiNE.isSelfhosted && AFFiNE.telemetry.enabled) {
+  if (Wasper.isSelfhosted && Wasper.telemetry.enabled) {
     const mixpanel = await import('mixpanel');
-    mixpanel.init(AFFiNE.telemetry.token).track('selfhost-server-started', {
-      version: AFFiNE.version,
+    mixpanel.init(Wasper.telemetry.token).track('selfhost-server-started', {
+      version: Wasper.version,
     });
   }
 
