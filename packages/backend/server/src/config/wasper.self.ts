@@ -1,54 +1,54 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
-// Custom configurations for AFFiNE Cloud
+// Custom configurations for Wasper Cloud
 // ====================================================================================
 // Q: WHY THIS FILE EXISTS?
-// A: AFFiNE deployment environment may have a lot of custom environment variables,
-//    which are not suitable to be put in the `affine.ts` file.
-//    For example, AFFiNE Cloud Clusters are deployed on Google Cloud Platform.
+// A: Wasper deployment environment may have a lot of custom environment variables,
+//    which are not suitable to be put in the `Wasper.ts` file.
+//    For example, Wasper Cloud Clusters are deployed on Google Cloud Platform.
 //    We need to enable the `gcloud` plugin to make sure the nodes working well,
 //    but the default selfhost version may not require it.
-//    So it's not a good idea to put such logic in the common `affine.ts` file.
+//    So it's not a good idea to put such logic in the common `Wasper.ts` file.
 //
 //    ```
-//    if (AFFiNE.deploy) {
-//      AFFiNE.plugins.use('gcloud');
+//    if (Wasper.deploy) {
+//      Wasper.plugins.use('gcloud');
 //    }
 //    ```
 // ====================================================================================
 const env = process.env;
 
-AFFiNE.metrics.enabled = !AFFiNE.node.test;
+Wasper.metrics.enabled = !Wasper.node.test;
 
 if (env.R2_OBJECT_STORAGE_ACCOUNT_ID) {
-  AFFiNE.plugins.use('cloudflare-r2', {
+  Wasper.plugins.use('cloudflare-r2', {
     accountId: env.R2_OBJECT_STORAGE_ACCOUNT_ID,
     credentials: {
       accessKeyId: env.R2_OBJECT_STORAGE_ACCESS_KEY_ID!,
       secretAccessKey: env.R2_OBJECT_STORAGE_SECRET_ACCESS_KEY!,
     },
   });
-  AFFiNE.storage.storages.avatar.provider = 'cloudflare-r2';
-  AFFiNE.storage.storages.avatar.bucket = 'account-avatar';
-  AFFiNE.storage.storages.avatar.publicLinkFactory = key =>
-    `https://avatar.affineassets.com/${key}`;
+  Wasper.storage.storages.avatar.provider = 'cloudflare-r2';
+  Wasper.storage.storages.avatar.bucket = 'account-avatar';
+  Wasper.storage.storages.avatar.publicLinkFactory = key =>
+    `https://avatar.Wasperassets.com/${key}`;
 
-  AFFiNE.storage.storages.blob.provider = 'cloudflare-r2';
-  AFFiNE.storage.storages.blob.bucket = `workspace-blobs-${
-    AFFiNE.affine.canary ? 'canary' : 'prod'
+  Wasper.storage.storages.blob.provider = 'cloudflare-r2';
+  Wasper.storage.storages.blob.bucket = `workspace-blobs-${
+    Wasper.Wasper.canary ? 'canary' : 'prod'
   }`;
 
-  AFFiNE.storage.storages.copilot.provider = 'cloudflare-r2';
-  AFFiNE.storage.storages.copilot.bucket = `workspace-copilot-${
-    AFFiNE.affine.canary ? 'canary' : 'prod'
+  Wasper.storage.storages.copilot.provider = 'cloudflare-r2';
+  Wasper.storage.storages.copilot.bucket = `workspace-copilot-${
+    Wasper.Wasper.canary ? 'canary' : 'prod'
   }`;
 }
 
-AFFiNE.plugins.use('copilot', {
+Wasper.plugins.use('copilot', {
   openai: {},
   fal: {},
 });
-AFFiNE.plugins.use('redis');
-AFFiNE.plugins.use('payment', {
+Wasper.plugins.use('redis');
+Wasper.plugins.use('payment', {
   stripe: {
     keys: {
       // fake the key to ensure the server generate full GraphQL Schema even env vars are not set
@@ -57,10 +57,10 @@ AFFiNE.plugins.use('payment', {
     },
   },
 });
-AFFiNE.plugins.use('oauth');
+Wasper.plugins.use('oauth');
 
-if (AFFiNE.deploy) {
-  AFFiNE.mailer = {
+if (Wasper.deploy) {
+  Wasper.mailer = {
     service: 'gmail',
     auth: {
       user: env.MAILER_USER,
@@ -68,5 +68,5 @@ if (AFFiNE.deploy) {
     },
   };
 
-  AFFiNE.plugins.use('gcloud');
+  Wasper.plugins.use('gcloud');
 }
