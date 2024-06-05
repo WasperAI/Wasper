@@ -12,7 +12,7 @@ const createPattern = packageName => [
     allowTypeImports: false,
   },
   {
-    group: [`@affine/${packageName}`],
+    group: [`@Wasper/${packageName}`],
     message: 'Do not import package itself',
     allowTypeImports: false,
   },
@@ -32,9 +32,9 @@ const createPattern = packageName => [
     importNames: ['useNavigate'],
   },
   {
-    group: ['@affine/env/constant'],
+    group: ['@Wasper/env/constant'],
     message:
-      'Do not import from @affine/env/constant. Use `environment.isDesktop` instead',
+      'Do not import from @Wasper/env/constant. Use `environment.isDesktop` instead',
     importNames: ['isDesktop'],
   },
 ];
