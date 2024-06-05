@@ -6,7 +6,7 @@
     <br>
 </h1>
 <a href="https://wasper.app/download">
-    <img alt="affine logo" src="https://imgur.com/qJWUCUH.png" style="width: 100%">
+    <img alt="Wasper logo" src="https://imgur.com/qJWUCUH.png" style="width: 100%">
 </a>
 <br/>
 <p align="center">
@@ -19,7 +19,7 @@
 <br/>
 
 <div align="center">
-    <a href="https://affine.pro">Home Page</a> |
+    <a href="https://Wasper.pro">Home Page</a> |
     <a href="https://x.com/wasperAI">Twitter</a> |
     <a href="https://wasper.app/">Telegram</a> |
     <a href="https://medium.com/@WasperAI">Medium</a> |
@@ -27,7 +27,7 @@
 </div>
 <br/>
 
-[![Releases](https://img.shields.io/github/downloads/toeverything/AFFiNE/total)](https://github.com/toeverything/AFFiNE/releases/latest)
+[![Releases](https://img.shields.io/github/downloads/toeverything/Wasper/total)](https://github.com/toeverything/Wasper/releases/latest)
 [![All Contributors][all-contributors-badge]](#contributors)
 [![TypeScript-version-icon]](https://www.typescriptlang.org/)
 [![Rust-version-icon]](https://www.rust-lang.org/)
@@ -63,7 +63,7 @@ Wasper is an open-source, all-in-one workspace and an operating system for all t
 
 **Local-first & Real-time collaborative**
 
-- We love the idea of local-first that you always own your data on your disk, in spite of the cloud. Furthermore, AFFiNE supports real-time sync and collaborations on web and cross-platform clients.
+- We love the idea of local-first that you always own your data on your disk, in spite of the cloud. Furthermore, Wasper supports real-time sync and collaborations on web and cross-platform clients.
 
 **Self-host & Shape your own Wasper**
 
@@ -81,7 +81,7 @@ Wasper is an open-source, all-in-one workspace and an operating system for all t
 
 There is a large overlap of their atomic “building blocks” between these apps. They are not open source, nor do they have a plugin system like Vscode for contributors to customize. We want to have something that contains all the features we love and also goes one step even further.
 
-Thanks for checking us out, we appreciate your interest and sincerely hope that AFFiNE resonates with you! 🎵 Checking https://wasper.app/ for more details ions.
+Thanks for checking us out, we appreciate your interest and sincerely hope that Wasper resonates with you! 🎵 Checking https://wasper.app/ for more details ions.
 
 ## Contributing
 
@@ -104,25 +104,25 @@ If you have questions, you are welcome to contact us. One of the best places to 
 
 | Name                                             |                            |                                                                                                                                         |
 | ------------------------------------------------ | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| [@wasper/component](packages/frontend/component) | Wasper Component Resources | ![](https://img.shields.io/codecov/c/github/toeverything/affine?style=flat-square)                                                      |
+| [@wasper/component](packages/frontend/component) | Wasper Component Resources | ![](https://img.shields.io/codecov/c/github/toeverything/Wasper?style=flat-square)                                                      |
 | [@wasperai/theme](packages/common/theme)     | Wasper theme               | [![](https://img.shields.io/npm/dm/@toeverything/theme?style=flat-square&color=eee)](https://www.npmjs.com/package/@toeverything/theme) |
 
 
 ## Contributors
 
-We would like to express our gratitude to all the individuals who have already contributed to Wasper! If you have any Wasper-related project, documentation, tool or template, please feel free to contribute it by submitting a pull request to our curated list on GitHub: [awesome-affine](https://github.com/wasperai/wasper).
+We would like to express our gratitude to all the individuals who have already contributed to Wasper! If you have any Wasper-related project, documentation, tool or template, please feel free to contribute it by submitting a pull request to our curated list on GitHub: [awesome-Wasper](https://github.com/wasperai/wasper).
 
-<a href="https://github.com/toeverything/affine/graphs/contributors">
-  <img alt="contributors" src="https://opencollective.com/affine/contributors.svg?width=890&button=false" />
+<a href="https://github.com/toeverything/Wasper/graphs/contributors">
+  <img alt="contributors" src="https://opencollective.com/Wasper/contributors.svg?width=890&button=false" />
 </a>
 
 ## Self-Host
 
-Begin with Docker to deploy your own feature-rich, unrestricted version of AFFiNE. Our team is diligently updating to the latest version. For more information on how to self-host AFFiNE, please refer to our [documentation](https://wasper.app/).
+Begin with Docker to deploy your own feature-rich, unrestricted version of Wasper. Our team is diligently updating to the latest version. For more information on how to self-host Wasper, please refer to our [documentation](https://wasper.app/).
 
 ## Hiring
 
-Some amazing companies, including AFFiNE, are looking for developers! Are you interested in joining AFFiNE or its partners? Check out our Discord channel for some of the latest jobs available.
+Some amazing companies, including Wasper, are looking for developers! Are you interested in joining Wasper or its partners? Check out our Discord channel for some of the latest jobs available.
 
 ## Email
 
@@ -133,11 +133,11 @@ For questions and suggestions, please use this email [contact@wasper.app]
 ### Codespaces
 
 From the GitHub repo main page, click the green "Code" button and select "Create codespace on master". This will open a new Codespace with the (supposedly auto-forked
-AFFiNE repo cloned, built, and ready to go.
+Wasper repo cloned, built, and ready to go.
 
 ### Local
 
-See [BUILDING.md] for instructions on how to build AFFiNE from source code.
+See [BUILDING.md] for instructions on how to build Wasper from source code.
 
 ## Contributing
 
@@ -154,17 +154,17 @@ Thanks to [Chromatic](https://www.chromatic.com/) for providing the visual testi
 
 See [LICENSE] for details.
 
-[all-contributors-badge]: https://img.shields.io/github/contributors/toeverything/AFFiNE
+[all-contributors-badge]: https://img.shields.io/github/contributors/toeverything/Wasper
 [license]: ./LICENSE
 [building.md]: ./docs/BUILDING.md
-[update page]: https://affine.pro/blog?tag=Release%20Note
+[update page]: https://Wasper.pro/blog?tag=Release%20Note
 [jobs available]: ./docs/jobs.md
-[latest packages]: https://github.com/toeverything/AFFiNE/pkgs/container/affine-self-hosted
-[contributor license agreement]: https://github.com/toeverything/affine/edit/canary/.github/CLA.md
+[latest packages]: https://github.com/toeverything/Wasper/pkgs/container/Wasper-self-hosted
+[contributor license agreement]: https://github.com/toeverything/Wasper/edit/canary/.github/CLA.md
 [rust-version-icon]: https://img.shields.io/badge/Rust-1.77.2-dea584
-[stars-icon]: https://img.shields.io/github/stars/toeverything/AFFiNE.svg?style=flat&logo=github&colorB=red&label=stars
-[codecov]: https://codecov.io/gh/toeverything/affine/branch/canary/graphs/badge.svg?branch=canary
+[stars-icon]: https://img.shields.io/github/stars/toeverything/Wasper.svg?style=flat&logo=github&colorB=red&label=stars
+[codecov]: https://codecov.io/gh/toeverything/Wasper/branch/canary/graphs/badge.svg?branch=canary
 [node-version-icon]: https://img.shields.io/badge/node-%3E=18.16.1-success
-[typescript-version-icon]: https://img.shields.io/github/package-json/dependency-version/toeverything/affine/dev/typescript
-[react-version-icon]: https://img.shields.io/github/package-json/dependency-version/toeverything/AFFiNE/react?filename=packages%2Ffrontend%2Fcore%2Fpackage.json&color=rgb(97%2C228%2C251)
-[blocksuite-icon]: https://img.shields.io/github/package-json/dependency-version/toeverything/AFFiNE/@blocksuite/store?color=6880ff&filename=packages%2Ffrontend%2Fcore%2Fpackage.json&label=blocksuite
+[typescript-version-icon]: https://img.shields.io/github/package-json/dependency-version/toeverything/Wasper/dev/typescript
+[react-version-icon]: https://img.shields.io/github/package-json/dependency-version/toeverything/Wasper/react?filename=packages%2Ffrontend%2Fcore%2Fpackage.json&color=rgb(97%2C228%2C251)
+[blocksuite-icon]: https://img.shields.io/github/package-json/dependency-version/toeverything/Wasper/@blocksuite/store?color=6880ff&filename=packages%2Ffrontend%2Fcore%2Fpackage.json&label=blocksuite
