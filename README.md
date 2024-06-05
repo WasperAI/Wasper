@@ -27,10 +27,10 @@
 </div>
 <br/>
 
-[![Releases](https://img.shields.io/github/downloads/toeverything/AFFiNE/total)](https://github.com/toeverything/AFFiNE/releases/latest)
-[![All Contributors][all-contributors-badge]](#contributors)
-[![TypeScript-version-icon]](https://www.typescriptlang.org/)
-[![Rust-version-icon]](https://www.rust-lang.org/)
+[![Releases]()
+[![All Contributors][all-contributors-badge]]()
+[![TypeScript-version-icon]]()
+[![Rust-version-icon]]()
 
 </div>
 
