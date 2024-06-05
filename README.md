@@ -154,17 +154,17 @@ Thanks to [Chromatic](https://www.chromatic.com/) for providing the visual testi
 
 See [LICENSE] for details.
 
-[all-contributors-badge]: https://img.shields.io/github/contributors/toeverything/affine
+[all-contributors-badge]: https://img.shields.io/github/contributors/toeverything/AFFiNE
 [license]: ./LICENSE
 [building.md]: ./docs/BUILDING.md
-[update page]: https://Wasper.pro/blog?tag=Release%20Note
+[update page]: https://affine.pro/blog?tag=Release%20Note
 [jobs available]: ./docs/jobs.md
-[latest packages]: https://github.com/toeverything/Wasper/pkgs/container/Wasper-self-hosted
-[contributor license agreement]: https://github.com/toeverything/Wasper/edit/canary/.github/CLA.md
+[latest packages]: https://github.com/toeverything/AFFiNE/pkgs/container/affine-self-hosted
+[contributor license agreement]: https://github.com/toeverything/affine/edit/canary/.github/CLA.md
 [rust-version-icon]: https://img.shields.io/badge/Rust-1.77.2-dea584
-[stars-icon]: https://img.shields.io/github/stars/toeverything/Wasper.svg?style=flat&logo=github&colorB=red&label=stars
-[codecov]: https://codecov.io/gh/toeverything/Wasper/branch/canary/graphs/badge.svg?branch=canary
+[stars-icon]: https://img.shields.io/github/stars/toeverything/AFFiNE.svg?style=flat&logo=github&colorB=red&label=stars
+[codecov]: https://codecov.io/gh/toeverything/affine/branch/canary/graphs/badge.svg?branch=canary
 [node-version-icon]: https://img.shields.io/badge/node-%3E=18.16.1-success
-[typescript-version-icon]: https://img.shields.io/github/package-json/dependency-version/toeverything/Wasper/dev/typescript
-[react-version-icon]: https://img.shields.io/github/package-json/dependency-version/toeverything/Wasper/react?filename=packages%2Ffrontend%2Fcore%2Fpackage.json&color=rgb(97%2C228%2C251)
-[blocksuite-icon]: https://img.shields.io/github/package-json/dependency-version/toeverything/Wasper/@blocksuite/store?color=6880ff&filename=packages%2Ffrontend%2Fcore%2Fpackage.json&label=blocksuite
+[typescript-version-icon]: https://img.shields.io/github/package-json/dependency-version/toeverything/affine/dev/typescript
+[react-version-icon]: https://img.shields.io/github/package-json/dependency-version/toeverything/AFFiNE/react?filename=packages%2Ffrontend%2Fcore%2Fpackage.json&color=rgb(97%2C228%2C251)
+[blocksuite-icon]: https://img.shields.io/github/package-json/dependency-version/toeverything/AFFiNE/@blocksuite/store?color=6880ff&filename=packages%2Ffrontend%2Fcore%2Fpackage.json&label=blocksuite
