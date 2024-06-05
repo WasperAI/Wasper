@@ -104,7 +104,7 @@ If you have questions, you are welcome to contact us. One of the best places to 
 
 | Name                                             |                            |                                                                                                                                         |
 | ------------------------------------------------ | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| [@wasper/component](packages/frontend/component) | Wasper Component Resources | ![](https://img.shields.io/codecov/c/github/toeverything/Wasper?style=flat-square)                                                      |
+| [@wasper/component](packages/frontend/component) | Wasper Component Resources | ![](https://img.shields.io/codecov/c/github/toeverything/affine?style=flat-square)                                                      |
 | [@wasperai/theme](packages/common/theme)     | Wasper theme               | [![](https://img.shields.io/npm/dm/@toeverything/theme?style=flat-square&color=eee)](https://www.npmjs.com/package/@toeverything/theme) |
 
 
