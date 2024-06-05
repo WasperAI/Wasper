@@ -1,4 +1,4 @@
-# Building AFFiNE Web
+# Building Wasper Web
 
 > **Warning**:
 >
@@ -17,7 +17,7 @@
 
 ## Prerequisites
 
-AFFiNE client has both **Node.js** & **Rust** toolchains.
+Wasper client has both **Node.js** & **Rust** toolchains.
 
 ### Install Node.js
 
@@ -62,7 +62,7 @@ yarn install
 #### Linux & MacOS
 
 ```sh
-git clone https://github.com/toeverything/AFFiNE
+git clone https://github.com/WasperAI/Wasper
 ```
 
 #### Windows
@@ -77,23 +77,23 @@ Once Developer Mode is enabled, execute the following command with administrator
 # Enable symbolic links
 git config --global core.symlinks true
 # Clone the repository
-git clone https://github.com/toeverything/AFFiNE
+git clone https://github.com/WasperAI/Wasper
 ```
 
 ### Build Native Dependencies
 
 Run the following script. It will build the native module at [`/packages/frontend/native`](/packages/frontend/native) and build Node.js binding using [NAPI.rs](https://napi.rs/).
 This could take a while if you build it for the first time.
-Note: use `strip` from system instead of `binutils` if you are running MacOS. [see problem here](https://github.com/toeverything/AFFiNE/discussions/2840)
+Note: use `strip` from system instead of `binutils` if you are running MacOS. [see problem here](https://github.com/WasperAI/Wasper/discussions/2840)
 
 ```
-yarn workspace @affine/native build
+yarn workspace @Wasper/native build
 ```
 
 ### Build Server Dependencies
 
 ```sh
-yarn workspace @affine/server-native build
+yarn workspace @Wasper/server-native build
 ```
 
 ## Testing
@@ -102,7 +102,7 @@ Adding test cases is strongly encouraged when you contribute new features and bu
 
 We use [Playwright](https://playwright.dev/) for E2E test, and [vitest](https://vitest.dev/) for unit test.
 To test locally, please make sure browser binaries are already installed via `npx playwright install`.
-Also make sure you have built the `@affine/core` workspace before running E2E tests.
+Also make sure you have built the `@Wasper/core` workspace before running E2E tests.
 
 ### Unit Test
 
@@ -113,8 +113,8 @@ yarn test
 ### E2E Test
 
 ```shell
-# there are `affine-local`, `affine-migration`, `affine-local`, `affine-prototype` e2e tests,
+# there are `Wasper-local`, `Wasper-migration`, `Wasper-local`, `Wasper-prototype` e2e tests,
 #   which are run under different situations.
-cd tests/affine-local
+cd tests/Wasper-local
 yarn e2e
 ```
