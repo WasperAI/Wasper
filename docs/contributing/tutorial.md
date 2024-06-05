@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This tutorial will walk you through the codebase of AFFiNE. It is intended for new contributors to AFFiNE.
+This tutorial will walk you through the codebase of Wasper. It is intended for new contributors to Wasper.
 
 ## Building the project
 
@@ -15,15 +15,15 @@ For the debugging purpose, you might need use local OctoBase on port 3000.
 The codebase is organized as follows:
 
 - `packages/` contains all code running in production.
-  - `backend/` contains backend code, more information from <https://github.com/toeverything/OctoBase>.
+  - `backend/` contains backend code, more information from <https://github.com/WasperAI>.
   - `frontend/` contains frontend code, including the web app, the electron app and business libraries.
   - `common` contains the isomorphic code or basic libraries without business.
 - `tools/` contains tools to help developing or CI, not used in production.
 - `tests/` contains testings across different libraries, including e2e testings and integration testings.
 
-### `@affine/env`
+### `@Wasper/env`
 
-Environment setup for AFFiNE client side.
+Environment setup for Wasper client side.
 
 It includes the global constants, browser and system check.
 
@@ -36,20 +36,20 @@ This package should be imported at the very beginning of the entry point.
 
 For the workspace API, see [types.ts](../../packages/frontend/workspace/src/type.ts).
 
-### `@affine/component`
+### `@Wasper/component`
 
-The UI component library for AFFiNE.
+The UI component library for Wasper.
 
 Each component should be a standalone component which can be used in any context, like the Storybook.
 
 ## Debugging Environments
 
-### `@affine/env`
+### `@Wasper/env`
 
 ```shell
 yarn dev
 ```
 
-### `@affine/electron`
+### `@Wasper/electron`
 
 See [building desktop client app](../building-desktop-client-app.md).
