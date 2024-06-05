@@ -18,10 +18,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f26201604c87b1e01bd3d98f8d5d9a8fcbb815e8cedb41ffccbeb4bf593a35fe"
 
 [[package]]
-name = "affine_native"
+name = "Wasper_native"
 version = "0.0.0"
 dependencies = [
- "affine_schema",
+ "Wasper_schema",
  "anyhow",
  "chrono",
  "dotenv",
@@ -41,11 +41,11 @@ dependencies = [
 ]
 
 [[package]]
-name = "affine_schema"
+name = "Wasper_schema"
 version = "0.0.0"
 
 [[package]]
-name = "affine_server_native"
+name = "Wasper_server_native"
 version = "1.0.0"
 dependencies = [
  "chrono",
