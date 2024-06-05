@@ -46,10 +46,10 @@ export const FunctionalityModules = [
 ];
 
 export class AppModuleBuilder {
-  private readonly modules: AFFiNEModule[] = [];
+  private readonly modules: WasperModule[] = [];
   constructor(private readonly config: Config) {}
 
-  use(...modules: AFFiNEModule[]): this {
+  use(...modules: WasperModule[]): this {
     modules.forEach(m => {
       const requirements = getOptionalModuleMetadata(m, 'requires');
       // if condition not set or condition met, include the module
@@ -68,7 +68,7 @@ export class AppModuleBuilder {
           new Logger(name).warn(
             `${name} is not enabled because of the required configuration is not satisfied.`,
             'Unsatisfied configuration:',
-            ...nonMetRequirements.map(config => `  AFFiNE.${config}`)
+            ...nonMetRequirements.map(config => `  Wasper.${config}`)
           );
           return;
         }
@@ -91,7 +91,7 @@ export class AppModuleBuilder {
 
   useIf(
     predicator: (config: Config) => boolean,
-    ...modules: AFFiNEModule[]
+    ...modules: WasperModule[]
   ): this {
     if (predicator(this.config)) {
       this.use(...modules);
@@ -112,7 +112,7 @@ export class AppModuleBuilder {
 }
 
 function buildAppModule() {
-  const factor = new AppModuleBuilder(AFFiNE);
+  const factor = new AppModuleBuilder(Wasper);
 
   factor
     // common fundamental modules
@@ -147,7 +147,7 @@ function buildAppModule() {
     );
 
   // plugin modules
-  AFFiNE.plugins.enabled.forEach(name => {
+  Wasper.plugins.enabled.forEach(name => {
     const plugin = REGISTERED_PLUGINS.get(name as AvailablePlugins);
     if (!plugin) {
       throw new Error(`Unknown plugin ${name}`);
