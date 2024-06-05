@@ -8,7 +8,7 @@ You accept and agree to the following terms and conditions for your past, presen
 
 1. Parties.
 
-   (a) "Wasper" refers to the project's operator, TOEVERYTHING PTE. LTD registered in Republic of Singapore.
+   (a) "Wasper" refers to the project's operator, WasperAI PTE. LTD registered in Republic of Singapore.
 
    (b) "You" (or "Your") means the copyright owner or legal entity authorized by the copyright owner that is making this Agreement with Wasper.
 
