@@ -154,7 +154,7 @@ Thanks to [Chromatic](https://www.chromatic.com/) for providing the visual testi
 
 See [LICENSE] for details.
 
-[all-contributors-badge]: https://img.shields.io/github/contributors/toeverything/Wasper
+[all-contributors-badge]: https://img.shields.io/github/contributors/toeverything/affine
 [license]: ./LICENSE
 [building.md]: ./docs/BUILDING.md
 [update page]: https://Wasper.pro/blog?tag=Release%20Note
