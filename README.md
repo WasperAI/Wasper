@@ -112,8 +112,8 @@ If you have questions, you are welcome to contact us. One of the best places to 
 
 We would like to express our gratitude to all the individuals who have already contributed to Wasper! If you have any Wasper-related project, documentation, tool or template, please feel free to contribute it by submitting a pull request to our curated list on GitHub: [awesome-Wasper](https://github.com/wasperai/wasper).
 
-<a href="https://github.com/toeverything/Wasper/graphs/contributors">
-  <img alt="contributors" src="https://opencollective.com/Wasper/contributors.svg?width=890&button=false" />
+<a href="https://github.com/toeverything/affine/graphs/contributors">
+  <img alt="contributors" src="https://opencollective.com/affine/contributors.svg?width=890&button=false" />
 </a>
 
 ## Self-Host
