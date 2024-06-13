@@ -19,15 +19,15 @@
 <br/>
 
 <div align="center">
-    <a href="https://Wasper.pro">Home Page</a> |
+    <a href="https://Wasper.app">Home Page</a> |
     <a href="https://x.com/wasperAI">Twitter</a> |
-    <a href="https://wasper.app/">Telegram</a> |
+    <a href="https://t.me/WasperAI">Telegram</a> |
     <a href="https://medium.com/@WasperAI">Medium</a> |
     <a href="https://wasper.app/">Documentation</a>
 </div>
 <br/>
 
-[![Releases]()
+[![Releases](https://img.shields.io/github/downloads/toeverything/AFFiNE/total)]()
 [![All Contributors][all-contributors-badge]]()
 [![TypeScript-version-icon]]()
 [![Rust-version-icon]]()
