@@ -20,7 +20,7 @@
 
 <div align="center">
     <a href="https://Wasper.app">Home Page</a> |
-    <a href="https://x.com/wasperSpace">Twitter</a> |
+    <a href="https://x.com/AIWasper">Twitter</a> |
     <a href="https://t.me/WasperAI">Telegram</a> |
     <a href="https://medium.com/@WasperAI">Medium</a> |
     <a href="https://wasper.app/">Documentation</a>
