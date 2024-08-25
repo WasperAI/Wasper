@@ -19,11 +19,11 @@
 <br/>
 
 <div align="center">
-    <a href="https://Wasper.app">Home Page</a> |
+    <a href="https://Wasper.space">Home Page</a> |
     <a href="https://x.com/WasperSpace">Twitter</a> |
     <a href="https://t.me/WasperAI">Telegram</a> |
     <a href="https://medium.com/@WasperAI">Medium</a> |
-    <a href="https://wasper.app/">Documentation</a>
+    <a href="https://wasper.space/">Documentation</a>
 </div>
 <br/>
 
@@ -87,7 +87,7 @@ Thanks for checking us out, we appreciate your interest and sincerely hope that 
 
 | Bug Reports                                                                                                                                         | Feature Requests                                                                                                                                               | Questions                                                       | 
 | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| [Create a bug report](https://github.com/wasperai/wasper/issues/new?assignees=&labels=bug%2Cproduct-review&template=BUG-REPORT.yml&title=TITLE) | [Submit a feature request](https://github.com/wasperai/wasper/issues/new?assignees=&labels=feat%2Cproduct-review&template=FEATURE-REQUEST.yml&title=TITLE) | [Send us an Email](https://wasper.app) |           |
+| [Create a bug report](https://github.com/wasperai/wasper/issues/new?assignees=&labels=bug%2Cproduct-review&template=BUG-REPORT.yml&title=TITLE) | [Submit a feature request](https://github.com/wasperai/wasper/issues/new?assignees=&labels=feat%2Cproduct-review&template=FEATURE-REQUEST.yml&title=TITLE) | [Send us an Email](https://wasper.space) |           |
 | Something isn't working as expected                                                                                                                 | An idea for a new feature, or improvements                                                                                                                     | contact@wasper.app                                                    |
 
 Calling all developers, testers, tech writers and more! Contributions of all types are more than welcome, you can read more in [docs/types-of-contributions.md](docs/types-of-contributions.md). If you are interested in contributing code, read our [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md) and feel free to check out our GitHub issues to get stuck in to show us what you’re made of.
