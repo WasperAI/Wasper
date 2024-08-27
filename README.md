@@ -19,11 +19,11 @@
 <br/>
 
 <div align="center">
-    <a href="https://Wasper.space">Home Page</a> |
+    <a href="https://Wasper.org">Home Page</a> |
     <a href="https://x.com/WasperSpace">Twitter</a> |
     <a href="https://t.me/WasperAI">Telegram</a> |
     <a href="https://medium.com/@WasperAI">Medium</a> |
-    <a href="https://wasper.space/">Documentation</a>
+    <a href="https://wasper.org/">Documentation</a>
 </div>
 <br/>
 
